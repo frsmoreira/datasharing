@@ -1,5 +1,5 @@
 
----
+```
 #### This script is part of the final assignment: "Getting and Cleaning Data Course Project"
 
 # The goal was to transform (summarize) the original data collected from an accelerometers 
@@ -83,4 +83,4 @@ x <- dcast(meltData, SubjectCode+ActivityCode ~ variable, mean)
 write.csv(summarizedFinalData, file = "summarizedFinalTable1.csv", row.names=FALSE)
 write.table(summarizedFinalData, file = "summarizedFinalTable1.txt", row.name=FALSE) 
 
----
+```
